@@ -3,78 +3,88 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Projects of Selvi Kavitha - Full Stack Engineer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+
+    <title>Projects - Selvi Kavitha</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Header section -->
+
+    <!-- Header Section -->
     <header>
         <h1>Kavitha Selvi</h1>
         <h2>Full Stack Engineer</h2>
-        <!-- navigation -->
+
         <nav>
             <a href="index.html">Home</a> |
             <a href="about.html">About</a> |
-            <a href="skills.html">Skills</a> |
-            <a href="services.html">Services</a> |
-            <a href="projects.html">Projects</a>|
+            <a href="projects.html">Projects</a> |
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+
     <hr>
-    <!-- Header section-->
-    <!-- Project Section -->
+
+    <!-- Projects Section -->
     <main>
         <section id="projects">
+
             <h2>My Projects</h2>
 
-            <!-- Project 1 -->
-            <article>
-                <h3>1. VOD Platform (Video-On-Demand)</h3>
-                <img src="images/vod.jpg" alt="VOD Platform" width="300" />
-                <p>
-                    Developed a responsive Video-On-Demand platform using ReactJS and
-                    Node.js. Integrated REST APIs for dynamic content and used Redux and
-                    React Router for smooth navigation. Built secure backend with Express,
-                    MySQL, and JWT for role-based access.
-                </p>
-            </article>
+            <div class="project-container">
 
-            <br>
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <img src="images/vod.jpg" alt="VOD Platform">
+                    <h3>VOD Platform (Video-On-Demand)</h3>
+                    <p>
+                        Developed a responsive Video-On-Demand platform using ReactJS and Node.js.
+                        Integrated REST APIs and implemented Redux and React Router for smooth navigation.
+                        Built secure backend using Express, MySQL, and JWT authentication.
+                    </p>
+                </article>
 
-            <!-- Project 2 -->
-            <article>
-                <h3>2. AOD Platform (Audio-On-Demand)</h3>
-                <img src="images/aod.webp" alt="AOD Platform" width="300" />
-                <p>
-                    Built a responsive Audio-On-Demand platform using ReactJS. Created
-                    reusable UI components with Bootstrap and implemented dynamic features
-                    like content filtering and real-time updates.
-                </p>
-            </article>
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <img src="images/aod.webp" alt="Audio On Demand Platform">
+                    <h3>AOD Platform (Audio-On-Demand)</h3>
+                    <p>
+                        Built a responsive Audio-On-Demand platform using ReactJS with reusable
+                        Bootstrap UI components. Implemented content filtering and dynamic updates
+                        for better user experience.
+                    </p>
+                </article>
 
-            <br>
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <img src="images/mobidial.webp" alt="Mobidial Call Center Application">
+                    <h3>Mobidial - Call Center Application</h3>
+                    <p>
+                        Developed a responsive call center web application using ReactJS and JavaScript.
+                        Integrated backend APIs and created an admin panel for managing agents,
+                        campaigns, reports, and performance monitoring.
+                    </p>
+                </article>
 
-            <!-- Project 3 -->
-            <article>
-                <h3>3. Mobidial - Call Center Application</h3>
-                <img src="images/mobidial.webp" alt="Mobidial Call Center Application" width="300" />
-                <p>
-                    Developed a responsive web and mobile call center application using
-                    ReactJS and JavaScript. Integrated backend APIs and built an admin
-                    panel to manage users, campaigns, reports, and agent assignments.
-                </p>
-            </article>
+            </div>
+
         </section>
     </main>
+
     <hr>
-    <!-- Project Section -->
-    <!-- Footer Section -->
+
+    <!-- Footer -->
     <footer>
-        <p> Kavitha © 2026 | All Rights Reserved </p>
+        <p>© 2026 Kavitha | All Rights Reserved</p>
     </footer>
-    <!-- Footer Section -->
+
 </body>
 
 </html>

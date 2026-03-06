@@ -3,59 +3,80 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Contact Selvi Kavitha - Full Stack Engineer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+
+    <title>Contact - Selvi Kavitha</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <!-- Header section -->
+
+    <!-- Header Section -->
     <header>
         <h1>Kavitha Selvi</h1>
         <h2>Full Stack Engineer</h2>
-        <!-- navigation -->
+
+        <!-- Navigation -->
         <nav>
             <a href="index.html">Home</a> |
             <a href="about.html">About</a> |
-            <a href="skills.html">Skills</a> |
-            <a href="services.html">Services</a> |
-            <a href="projects.html">Projects</a>|
+            <a href="projects.html">Projects</a> |
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+
     <hr>
-    <!-- Header section-->
+
     <!-- Contact Section -->
     <main>
         <section id="contact">
+
             <h2>Contact Me</h2>
-            <p>Email: selvikavitha@email.com</p>
-            <p>Phone: +91 9123456789</p>
-            <p>Location: Tamil Nadu, India</p>
-            <form>
+
+            <p><strong>Email:</strong> selvikavitha@email.com</p>
+            <p><strong>Phone:</strong> +91 9123456789</p>
+            <p><strong>Location:</strong> Tamil Nadu, India</p>
+
+            <!-- Contact Form -->
+            <form action="#" method="post">
+
                 <!-- Name -->
                 <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" required minlength="3"><br><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required minlength="3"><br><br>
+
                 <!-- Email -->
                 <label for="email">Email</label><br>
-                <input type="email" id="email" name="email" required> <br><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
                 <!-- Subject -->
-                <label for="Subject">Subject</label> <br>
-                <input type="text" id="subject" name="Subject" required><br><br>
+                <label for="subject">Subject</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" required><br><br>
+
                 <!-- Message -->
                 <label for="message">Message</label><br>
-                <textarea name="message" id="message" cols="30" rows="5"></textarea> <br><br>
-                <input type="submit">
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                    required></textarea><br><br>
+
+                <!-- Submit -->
+                <button type="submit">Send Message</button>
 
             </form>
+
         </section>
     </main>
-    <!-- Contact Section -->
+
     <hr>
+
     <!-- Footer Section -->
     <footer>
-        <p> Kavitha © 2026 | All Rights Reserved </p>
+        <p>© 2026 Kavitha | All Rights Reserved</p>
     </footer>
-    <!-- Footer Section -->
 
 </body>
 
